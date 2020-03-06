@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
- array.index{
+ array.index{|i| 
  puts array[value_to_find]
 end
 
